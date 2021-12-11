@@ -8,7 +8,7 @@ player_move_1 = "hyperbeam"
 player_move_2 = "dragon breath"
 player_move_3 = "protect"
 player_move_4 = "meteor"
-while True:
+while True: ##while loop that keeps the game going until one player loses all their health
     if enemy_health <= 0:
         print("Enemy defeated! Gained 30,000 souls!")
         break
