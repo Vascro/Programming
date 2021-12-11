@@ -10,7 +10,7 @@ player_move_3 = "protect"
 player_move_4 = "meteor"
 while True: ##while loop that keeps the game going until one player loses all their health
     if enemy_health <= 0:
-        print("Enemy defeated! Gained 30,000 souls!")
+        print("Enemy defeated! Gained some munny.")
         break
     if player_health <= 0:
         print("Dude you suck, git gud nub. GAME OVER")
@@ -35,25 +35,25 @@ while True: ##while loop that keeps the game going until one player loses all th
         move_selection = input("Choose an attack: hyperbeam, dragon breath, protect, or meteor. \n").lower()
         if move_selection == "Hyperbeam".lower():
             enemy_health = enemy_health-40
-            print("You've fucked him up! He's lost 40 hp. ")
+            print("You've fucked them up! Enemy lost 40 hp.")
             input()
         elif move_selection == "Dragon breath".lower():
             enemy_health = enemy_health-75
-            print("That was super effective! Dragons are too OP. He's lost 75 hp. ")
+            print("That was super effective! Dragons are too OP. Enemy lost 75 hp.")
             input()
         elif move_selection == "Protect".lower():
             player_health = player_health+25
-            print("You've gained 25 armor")
+            print("You've gained 25 armor!")
             input()
         elif move_selection == "Meteor".lower():
             enemy_health = enemy_health-25
-            print("That wasn't very effective... your enemy can tank meteors bruh. he's only lost 25 hp. ")
+            print("That wasn't very effective... your enemy can tank meteors bruh. Enemy only lost 25 hp.")
             input()
         else:
             print("That isn't a move you know, get fuked nerd lmao")
             input()
     if enemy_health <= 0:
-        print("Enemy defeated! Gained 30,000 souls!")
+        print("Enemy defeated! Gained some munny.")
         break
     enemy_move = random.choice(enemy_turn)
     if enemy_move == "Fire breath":
