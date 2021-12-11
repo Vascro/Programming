@@ -1,13 +1,14 @@
-import random
+import random ##needed for randomizing the enemy attack
 enemy = "A wild pokemon"
 enemy_health = 100
 enemy_turn = ["Fire breath","Ice beam","Thunderbolt","Leaf blade"]
-enemy_move = random.choice(enemy_turn)
+enemy_move = random.choice(enemy_turn) ##Issue 1 - Once a move is chosen by random, it stays that move instead of choosing a new random move each turn
 player_health = 100
 player_move_1 = "hyperbeam"
 player_move_2 = "dragon breath"
 player_move_3 = "protect"
 player_move_4 = "meteor"
+##Issue 2 - enemy still attacks at beginning of turn after either they or player health goes to or below 0, and then the game ends
 while True:
     if enemy_health <= 0:
         print("Enemy defeated! Gained 30,000 souls!")
@@ -15,6 +16,7 @@ while True:
     if player_health <= 0:
         print("Dude you suck, git gud nub. GAME OVER")
         break
+##Issue 3 - casefold should make the case of the player input not matter, but it still fails if I use capitals for the input
     player_input = input("What do you do? Attack, Run, Cry, Check enemy health, Check my health ")
     if player_input.casefold() == "Check enemy health".casefold():
         print(enemy_health)
