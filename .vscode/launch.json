@@ -16,9 +16,9 @@
         ""
       ],
       "stopAtEntry": false,
-      "cwd": "c:/Users/crain/Programming",
+      "cwd": "c:/Users/crain/Programming/C++",
       "environment": [],
-      "program": "c:/Users/crain/Programming/build/Debug/outDebug",
+      "program": "c:/Users/crain/Programming/C++/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",

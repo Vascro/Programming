@@ -1,8 +1,7 @@
 #include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  cout << "I am learning C++";
-  return 0;
+int main()
+{
+    // Output the hello world text
+    std::cout << "Hello world!" << std::endl;
+    return 0;
 }
