@@ -18,7 +18,7 @@ while True:
         break
 ##Issue 3 - casefold should make the case of the player input not matter, but it still fails if I use capitals for the input
     player_input = input("What do you do? Attack, Run, Cry, Check enemy health, Check my health ")
-    if player_input.casefold() == "Check enemy health".casefold():
+    if player_input() == "Check enemy health".casefold():
         print(enemy_health)
         continue
     elif player_input == "Check my health".casefold():
