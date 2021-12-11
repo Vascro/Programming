@@ -19,7 +19,7 @@ while True:
     if player_input == "identify enemy".lower():
         print(enemy)
         continue
-    if player_input == "Check enemy health".lower():
+    elif player_input == "Check enemy health".lower():
         print(enemy_health)
         continue
     elif player_input == "Check my health".lower():
