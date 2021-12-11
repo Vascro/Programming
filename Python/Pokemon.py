@@ -15,7 +15,6 @@ while True:
     if player_health <= 0:
         print("Dude you suck, git gud nub. GAME OVER")
         break
-##Issue 3 - casefold should make the case of the player input not matter, but it still fails if I use capitals for the input
     player_input = input("What do you do? Attack, Run, Cry, Check enemy health, Check my health, identify enemy: \n").lower()
     if player_input == "identify enemy".lower():
         print(enemy)
