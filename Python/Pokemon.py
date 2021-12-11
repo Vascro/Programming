@@ -15,13 +15,16 @@ while True:
     player_input = input("What do you do? Attack, Run, Cry, check enemy health, check my health ")
     if player_input == "check enemy health":
         print(enemy_health)
+        continue
     if player_input == "check my health":
         print(player_health)
+        continue
     if player_input == "run":
         print("Got away safely")
         break
     if player_input == "cry":
         print("Your bloodline is weak and will end with you.")
+        input()
     if player_input == "Attack":
         move_selection = input("Choose an attack: hyperbeam, dragon breath, protect, or meteor. ")
         if move_selection == "hyperbeam":
@@ -43,21 +46,20 @@ while True:
         else:
             print("That isn't a move you know, get fuked nerd lmao")
             input()
+        enemy_move = print("Enemy turn, they use "+random.choice(enemy_turn))
+        if enemy_move == "fire breath":
+            player_health = player_health-30
+            print("Enemy used Fire Breath! You take 30 damage")
+        elif enemy_move == "ice beam":
+                player_health = player_health-50
+                print("Enemy used ice beam! You take 50 damage")
+        elif enemy_move == "thunderbolt":
+                player_health = player_health-75
+                print("Enemy used Thunder Bolt! You take 75 damage")
+        elif enemy_move == "leaf blade":
+                player_health = player_health-15
+                print("Enemy used leaf blade! You take 15 damage")
+    else:
+        continue
     if enemy_health <= 0 or player_health <= 0:
         break
-    enemy_move = print("Enemy turn, they use "+random.choice(enemy_turn))
-    if enemy_move == "fire breath":
-        player_health = player_health-30
-        print("Enemy used Fire Breath! You take 30 damage")
-    elif enemy_move == "ice beam":
-            player_health = player_health-50
-            print("Enemy used ice beam! You take 50 damage")
-    elif enemy_move == "thunderbolt":
-            player_health = player_health-75
-            print("Enemy used Thunder Bolt! You take 75 damage")
-    elif enemy_move == "leaf blade":
-            player_health = player_health-15
-            print("Enemy used leaf blade! You take 15 damage")
-    else:
-            continue
-test
