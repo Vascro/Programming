@@ -14,10 +14,11 @@ pygame.draw.circle(playfield, black, (800,200), 10)
 pygame.draw.line(playfield, purple, (500,400), (800,400))
 #Game loop begins
 while True:
-    keypress = event.type.pygame.keydown
     pygame.display.update()
+    keypress = pygame.key.get_pressed()
+    
     for event in pygame.event.get():
-        if event.type == keypress[pygame.a]:
+        if event.type == keypress:
             pygame.quit()
             sys.exit()
     framepersec.tick(fps)
