@@ -15,8 +15,7 @@ pygame.draw.line(playfield, purple, (500,400), (800,400))
 #Game loop begins
 while True:
     pygame.display.update()
-    keypress = pygame.key.get_pressed()
-    
+    keypress = pygame.key.get_pressed()  
     for event in pygame.event.get():
         if event.type == keypress:
             pygame.quit()
