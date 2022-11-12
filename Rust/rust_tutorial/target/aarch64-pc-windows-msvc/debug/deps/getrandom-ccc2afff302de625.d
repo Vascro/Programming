@@ -1,0 +1,11 @@
+C:\Users\crain\OneDrive\Programming\Rust\rust_tutorial\target\aarch64-pc-windows-msvc\debug\deps\getrandom-ccc2afff302de625.rmeta: C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\lib.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\util.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error_impls.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\windows.rs
+
+C:\Users\crain\OneDrive\Programming\Rust\rust_tutorial\target\aarch64-pc-windows-msvc\debug\deps\libgetrandom-ccc2afff302de625.rlib: C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\lib.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\util.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error_impls.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\windows.rs
+
+C:\Users\crain\OneDrive\Programming\Rust\rust_tutorial\target\aarch64-pc-windows-msvc\debug\deps\getrandom-ccc2afff302de625.d: C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\lib.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\util.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error_impls.rs C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\windows.rs
+
+C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\lib.rs:
+C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error.rs:
+C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\util.rs:
+C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\error_impls.rs:
+C:\Users\crain\.cargo\registry\src\github.com-1ecc6299db9ec823\getrandom-0.2.8\src\windows.rs:
